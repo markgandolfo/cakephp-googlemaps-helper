@@ -13,7 +13,6 @@ You can use it as follows:
 
 **To call a map at the given location and place a marker then do this!**
 <code>
-    &lt;div id="map"&gt; &lt;/div&gt;
     $googleMap->map('-27,0000', '152,3043', 10);
     $content = 'The Address, or something similar, this will appear in the clickable marker box (can include html)';
     $googleMap->addMarker($content);   
@@ -21,7 +20,6 @@ You can use it as follows:
 
 **Or if you want a marker at another position, you can do this.**
 <code>
-    &lt;div id="map"&gt; &lt;/div&gt;
     $googleMap->map('-27,0000', '152,3043', 10);
     $content = 'The Address, or something similar, this will appear in the clickable marker box (can include html)';
     $googleMap->addMarker($content, true, '-27,2032', '234,2343');
